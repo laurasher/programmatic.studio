@@ -23,16 +23,19 @@
         <h4 class="menu-item" (click)="enableDisableRule('dyeing')"  routerLink="/dyeing">natural dyeing</h4>
       </div>
       <div class="menu-item-container-h3">
-          <h3 class="menu-item">the studio</h3>
-      </div>
+          <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">
+          <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">the studio</h3>
+        </div>
       <div class="menu-item-container-h3">
-        <h3 class="menu-item">shop</h3>
+        <h3 class="menu-item category-item">shop</h3>
       </div>
       <div class="menu-item-container-h4">
-        <h4 class="menu-item">print</h4>
+        <img class="cursor" [ngClass]="{'show' : printshopToggle, 'hide': !printshopToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('printshop')"  routerLink="/printshop">prints</h4>
       </div>
       <div class="menu-item-container-h4">
-        <h4 class="menu-item">textiles</h4>
+        <img class="cursor" [ngClass]="{'show' : textileshopToggle, 'hide': !textileshopToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('textileshop')"  routerLink="/textileshop">textiles</h4>
       </div>
     </span>
   </div>
