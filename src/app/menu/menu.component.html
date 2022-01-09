@@ -7,8 +7,8 @@
       <div class="menu-item-container-h3" style="margin-left: 0px !important;">
         <h3 class="menu-item" style="margin-left: 0px !important;">about</h3>
       </div>
-      <div class="menu-item-container-h3 category-item">
-        <h3 class="menu-item">process</h3>
+      <div class="menu-item-container-h3">
+        <h3 class="menu-item category-item">process</h3>
       </div>
       <div class="menu-item-container-h4">
         <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/right-tri.svg">
@@ -19,7 +19,8 @@
         <h4 class="menu-item" (click)="enableDisableRule('etching')"  routerLink="/etching">electro-etching</h4>
       </div>
       <div class="menu-item-container-h4">
-        <h4 class="menu-item">natural dyeing</h4>
+        <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('dyeing')"  routerLink="/dyeing">natural dyeing</h4>
       </div>
       <div class="menu-item-container-h3">
           <h3 class="menu-item">the studio</h3>

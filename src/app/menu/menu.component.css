@@ -15,7 +15,7 @@ h4 {
   cursor: pointer;
 }
 .category-item {
-  cursor: none;
+  cursor: none !important;
 }
 #logo-container {
   margin-bottom: 5%;

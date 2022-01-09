@@ -13,19 +13,31 @@ export class MenuComponent implements OnInit {
   }
 
   // Initalize all to false
+  aboutToggle = true;
   katazomeToggle = false;
   etchingToggle = false;
+  dyeingToggle = false;
   // status = 'Enable';
 
   enableDisableRule(page:string) {
     console.log("current page ", page)
     if (page == "katazome"){
-      this.etchingToggle = false;
+      this.aboutToggle = false;
       this.katazomeToggle = true;
+      this.etchingToggle = false;
+      this.dyeingToggle = false;
     }
     if (page == "etching"){
+      this.aboutToggle = false;
       this.katazomeToggle = false;
       this.etchingToggle = true;
+      this.dyeingToggle = false;
+    }
+    if (page == "dyeing"){
+      this.aboutToggle = false;
+      this.katazomeToggle = false;
+      this.etchingToggle = false;
+      this.dyeingToggle = true;
     }
     // this.status = this.katazomeToggle ? 'Enable' : 'Disable';
   }

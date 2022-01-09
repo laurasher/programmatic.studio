@@ -10,6 +10,7 @@ export class KatazomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
