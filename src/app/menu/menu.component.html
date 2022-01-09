@@ -5,10 +5,12 @@
   <div id="menu-container">
     <span id="menu">
       <h3 class="menu-item" style="margin-left: 0px !important;">about</h3>
-      <h3 class="menu-item">process</h3>
+      <div class="menu-item-container">
+        <h3 class="menu-item">process</h3>
+      </div>
       <div class="menu-item-container">
         <h4 class="menu-item" (click)="enableDisableRule()" routerLink="/katazome">laser-enabled katazome</h4>
-        <img [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/tri.svg">
+        <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/tri.svg">
       </div>
       <h4 class="menu-item " routerLink="/etching">electro-etching</h4>
       <h4 class="menu-item">natural dyeing</h4>

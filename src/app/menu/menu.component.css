@@ -27,11 +27,14 @@ h4 {
 .menu-item-container {
   display: inline;
 }
-
-.show {
-  display: inline-block;
+.cursor{
+  vertical-align: middle;
+  text-align: center;
+  display: block
 }
-
+.show {
+  display: block;
+}
 .hide {
   display: none;
 }
