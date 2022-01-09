@@ -8,9 +8,13 @@
   font-family: "Effra Lt";
   src: local("Effra Lt"), url(./assets/fonts/Effra_Std_Lt.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Helvetica Neue Lt";
+  src: local("Helvetica Neue Lt"), url(./assets/fonts/helvetica-neue-light.ttf) format("truetype");
+}
 html, body { height: 100%; }
 body {
   margin: 0;
   padding: 3% !important;
-  font-family: "Effra"
+  font-family: "Helvetica Neue Lt"
 }
