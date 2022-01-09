@@ -21,11 +21,11 @@ export class MenuComponent implements OnInit {
     console.log("current page ", page)
     if (page == "katazome"){
       this.etchingToggle = false;
-      this.katazomeToggle = !this.katazomeToggle;
+      this.katazomeToggle = true;
     }
     if (page == "etching"){
       this.katazomeToggle = false;
-      this.etchingToggle = !this.etchingToggle;
+      this.etchingToggle = true;
     }
     // this.status = this.katazomeToggle ? 'Enable' : 'Disable';
   }
