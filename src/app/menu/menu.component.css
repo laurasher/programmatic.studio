@@ -5,13 +5,13 @@
 }
 h3 {
   font-size: 1.5vh;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   cursor: pointer;
 }
 h4 {
   font-size: 1.5vh;
   color: #707070;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   cursor: pointer;
 }
 #logo-container {
@@ -24,16 +24,23 @@ h4 {
 .menu-item {
   display: inline;
 }
-.menu-item-container {
+.menu-item-container-h3 {
+  margin-left: 5%;
+  display: inline;
+}
+.menu-item-container-h4 {
+  margin-left: 3%;
   display: inline;
 }
 .cursor{
+  /* margin-left: 3%; */
+  margin-right: 0.5%;
   vertical-align: middle;
   text-align: center;
-  display: block
+  height: 10px;
 }
 .show {
-  display: block;
+  display: inline-flex;
 }
 .hide {
   display: none;
