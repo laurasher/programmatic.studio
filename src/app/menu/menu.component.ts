@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit {
   }
 
   // Initalize all to false
-  aboutToggle = true;
+  aboutToggle = false;
   katazomeToggle = false;
   etchingToggle = false;
   dyeingToggle = false;
@@ -23,7 +23,15 @@ export class MenuComponent implements OnInit {
   // status = 'Enable';
 
   enableDisableRule(page:string) {
-    console.log("current page ", page)
+    if (page == "about"){
+      this.aboutToggle = true;
+      this.katazomeToggle = false;
+      this.etchingToggle = false;
+      this.dyeingToggle = false;
+      this.studioToggle = false;
+      this.printshopToggle = false;
+      this.textileshopToggle = false;
+    }
     if (page == "katazome"){
       this.aboutToggle = false;
       this.katazomeToggle = true;
