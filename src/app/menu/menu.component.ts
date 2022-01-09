@@ -12,11 +12,21 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  katazomeToggle = true;
+  // Initalize all to false
+  katazomeToggle = false;
+  etchingToggle = false;
   // status = 'Enable';
 
-  enableDisableRule() {
+  enableDisableRule(page:string) {
+    console.log("current page ", page)
+    if (page == "katazome"){
+      this.etchingToggle = false;
       this.katazomeToggle = !this.katazomeToggle;
-      // this.status = this.katazomeToggle ? 'Enable' : 'Disable';
+    }
+    if (page == "etching"){
+      this.katazomeToggle = false;
+      this.etchingToggle = !this.etchingToggle;
+    }
+    // this.status = this.katazomeToggle ? 'Enable' : 'Disable';
   }
 }

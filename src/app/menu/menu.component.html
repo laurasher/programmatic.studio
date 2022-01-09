@@ -12,10 +12,11 @@
       </div>
       <div class="menu-item-container-h4">
         <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule()" routerLink="/katazome">laser-enabled katazome</h4>
+        <h4 class="menu-item" (click)="enableDisableRule('katazome')" routerLink="/katazome">laser-enabled katazome</h4>
       </div>
       <div class="menu-item-container-h4">
-        <h4 class="menu-item " routerLink="/etching">electro-etching</h4>
+        <img class="cursor" [ngClass]="{'show' : etchingToggle, 'hide': !etchingToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('etching')"  routerLink="/etching">electro-etching</h4>
       </div>
       <div class="menu-item-container-h4">
         <h4 class="menu-item">natural dyeing</h4>
