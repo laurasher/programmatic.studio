@@ -1,4 +1,4 @@
-img {
+#logo {
   margin: auto;
   height: 8.5vh;
   display: block;
@@ -23,4 +23,15 @@ h4 {
 }
 .menu-item {
   display: inline;
+}
+.menu-item-container {
+  display: inline;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
 }
