@@ -27,7 +27,8 @@ import { StudioComponent } from './studio/studio.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'about', component: AboutComponent},
+      // {path: 'about', component: AboutComponent},
+      {path: '', component: AboutComponent},
       {path: 'katazome', component: KatazomeComponent},
       {path: 'etching', component: EtchingComponent},
       {path: 'dyeing', component: DyeingComponent},

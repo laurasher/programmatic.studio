@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit {
   }
 
   // Initalize all to false
-  aboutToggle = false;
+  aboutToggle = true;
   katazomeToggle = false;
   etchingToggle = false;
   dyeingToggle = false;

@@ -5,12 +5,14 @@
 }
 h3 {
   /* font-size: 1.5vh; */
-  font-size: 0.95vw;
+  /* font-size: 0.95vw; */
+  font-size: 1.2vw;
   cursor: pointer;
 }
 h4 {
   /* font-size: 1.5vh; */
-  font-size: 0.95vw;
+  /* font-size: 0.95vw; */
+  font-size: 1.2vw;
   color: #707070;
   cursor: pointer;
 }
@@ -28,7 +30,7 @@ h4 {
   display: inline;
 }
 .menu-item-container-h3 {
-  margin-left: 5%;
+  margin-left: 3%;
   display: inline;
 }
 .menu-item-container-h4 {
@@ -39,7 +41,7 @@ h4 {
   margin-right: 0.5%;
   vertical-align: middle;
   text-align: center;
-  height: 10px;
+  height: 0.8vw;
 }
 .show {
   display: inline-flex;
@@ -47,3 +49,22 @@ h4 {
 .hide {
   display: none;
 }
+
+/*
+header nav {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
+@media screen and (orientation: landscape) {
+  header nav {
+    position: fixed;
+    left: 0;
+    width: 20vw;
+  }
+}
+*/
