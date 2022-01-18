@@ -1,6 +1,6 @@
 <div>
   <div id="logo-container">
-    <img id="logo" src="assets/programmatic.svg">
+    <img routerLink="/" id="logo" src="assets/programmatic.svg">
   </div>
   <div id="menu-container">
     <span id="menu">
@@ -38,12 +38,12 @@
         <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">the studio</h3>
       </div>
       <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : printshopToggle, 'hide': !printshopToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('printshop')"  routerLink="/printshop">prints</h4>
+        <img class="cursor" [ngClass]="{'show' : printgalleryToggle, 'hide': !printgalleryToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('printgallery')"  routerLink="/printgallery">prints</h4>
       </div>
       <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : textileshopToggle, 'hide': !textileshopToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('textileshop')"  routerLink="/textileshop">textiles</h4>
+        <img class="cursor" [ngClass]="{'show' : textilegalleryToggle, 'hide': !textilegalleryToggle}" src="assets/right-tri.svg">
+        <h4 class="menu-item" (click)="enableDisableRule('textilegallery')"  routerLink="/textilegallery">textiles</h4>
       </div>
     </div>
     </span>

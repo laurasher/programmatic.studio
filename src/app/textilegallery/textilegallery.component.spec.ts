@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrintshopComponent } from './printshop.component';
+import { textilegalleryComponent } from './textilegallery.component';
 
-describe('PrintshopComponent', () => {
-  let component: PrintshopComponent;
-  let fixture: ComponentFixture<PrintshopComponent>;
+describe('textilegalleryComponent', () => {
+  let component: textilegalleryComponent;
+  let fixture: ComponentFixture<textilegalleryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PrintshopComponent ]
+      declarations: [ textilegalleryComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PrintshopComponent);
+    fixture = TestBed.createComponent(textilegalleryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

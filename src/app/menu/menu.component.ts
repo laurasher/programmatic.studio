@@ -18,8 +18,8 @@ export class MenuComponent implements OnInit {
   etchingToggle = false;
   dyeingToggle = false;
   studioToggle = false;
-  printshopToggle = false;
-  textileshopToggle = false;
+  printgalleryToggle = false;
+  textilegalleryToggle = false;
   // status = 'Enable';
 
   enableDisableRule(page:string) {
@@ -29,8 +29,8 @@ export class MenuComponent implements OnInit {
       this.etchingToggle = false;
       this.dyeingToggle = false;
       this.studioToggle = false;
-      this.printshopToggle = false;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = false;
     }
     if (page == "katazome"){
       this.aboutToggle = false;
@@ -38,8 +38,8 @@ export class MenuComponent implements OnInit {
       this.etchingToggle = false;
       this.dyeingToggle = false;
       this.studioToggle = false;
-      this.printshopToggle = false;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = false;
     }
     if (page == "etching"){
       this.aboutToggle = false;
@@ -47,8 +47,8 @@ export class MenuComponent implements OnInit {
       this.etchingToggle = true;
       this.dyeingToggle = false;
       this.studioToggle = false;
-      this.printshopToggle = false;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = false;
     }
     if (page == "dyeing"){
       this.aboutToggle = false;
@@ -56,8 +56,8 @@ export class MenuComponent implements OnInit {
       this.etchingToggle = false;
       this.dyeingToggle = true;
       this.studioToggle = false;
-      this.printshopToggle = false;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = false;
     }
     if (page == "studio"){
       this.aboutToggle = false;
@@ -65,26 +65,26 @@ export class MenuComponent implements OnInit {
       this.etchingToggle = false;
       this.dyeingToggle = false;
       this.studioToggle = true;
-      this.printshopToggle = false;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = false;
     }
-    if (page == "printshop"){
+    if (page == "printgallery"){
       this.aboutToggle = false;
       this.katazomeToggle = false;
       this.etchingToggle = false;
       this.dyeingToggle = false;
       this.studioToggle = false;
-      this.printshopToggle = true;
-      this.textileshopToggle = false;
+      this.printgalleryToggle = true;
+      this.textilegalleryToggle = false;
     }
-    if (page == "textileshop"){
+    if (page == "textilegallery"){
       this.aboutToggle = false;
       this.katazomeToggle = false;
       this.etchingToggle = false;
       this.dyeingToggle = false;
       this.studioToggle = false;
-      this.printshopToggle = false;
-      this.textileshopToggle = true;
+      this.printgalleryToggle = false;
+      this.textilegalleryToggle = true;
     }
     // this.status = this.katazomeToggle ? 'Enable' : 'Disable';
   }
