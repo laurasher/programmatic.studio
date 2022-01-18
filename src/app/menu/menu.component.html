@@ -4,6 +4,7 @@
   </div>
   <div id="menu-container">
     <span id="menu">
+      <div>
       <div class="menu-item-container-h3" style="margin-left: 0px !important;">
         <img class="cursor" [ngClass]="{'show' : aboutToggle, 'hide': !aboutToggle}" src="assets/right-tri.svg">
         <!-- <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/about">about</h3> -->
@@ -36,9 +37,6 @@
         <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">
         <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">the studio</h3>
       </div>
-      <!-- <div class="menu-item-container-h3">
-        <h3 class="menu-item category-item">shop</h3>
-      </div> -->
       <div class="menu-item-container-h4">
         <img class="cursor" [ngClass]="{'show' : printshopToggle, 'hide': !printshopToggle}" src="assets/right-tri.svg">
         <h4 class="menu-item" (click)="enableDisableRule('printshop')"  routerLink="/printshop">prints</h4>
@@ -47,6 +45,7 @@
         <img class="cursor" [ngClass]="{'show' : textileshopToggle, 'hide': !textileshopToggle}" src="assets/right-tri.svg">
         <h4 class="menu-item" (click)="enableDisableRule('textileshop')"  routerLink="/textileshop">textiles</h4>
       </div>
+    </div>
     </span>
   </div>
 </div>

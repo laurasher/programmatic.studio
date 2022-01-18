@@ -6,13 +6,13 @@
 h3 {
   /* font-size: 1.5vh; */
   /* font-size: 0.95vw; */
-  font-size: 1.2vw;
+  font-size: 1.0vw;
   cursor: pointer;
 }
 h4 {
   /* font-size: 1.5vh; */
   /* font-size: 0.95vw; */
-  font-size: 1.2vw;
+  font-size: 1.0vw;
   color: #707070;
   cursor: pointer;
 }
@@ -22,6 +22,10 @@ h4 {
 #logo-container {
   margin-bottom: 5%;
 }
+#menu {
+  align-content: center;
+  text-align: center;
+}
 #menu-container {
   width: 100%;
   justify-content: space-evenly;
@@ -30,7 +34,7 @@ h4 {
   display: inline;
 }
 .menu-item-container-h3 {
-  margin-left: 3%;
+  margin-left: 4%;
   display: inline;
 }
 .menu-item-container-h4 {
