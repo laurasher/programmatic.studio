@@ -3,19 +3,18 @@
   height: 5vw;
   display: block;
   cursor: pointer;
+  outline: none;
 }
 h3 {
-  /* font-size: 1.5vh; */
-  /* font-size: 0.95vw; */
   font-size: 0.95vw;
   cursor: pointer;
+  outline: none;
 }
 h4 {
-  /* font-size: 1.5vh; */
-  /* font-size: 0.95vw; */
   font-size: 0.95vw;
   color: #707070;
   cursor: pointer;
+  outline: none;
 }
 .category-item {
   cursor: none !important;
@@ -30,6 +29,7 @@ h4 {
 #menu-container {
   width: 100%;
   justify-content: space-evenly;
+  margin: auto;
 }
 .menu-item {
   display: inline;
@@ -54,22 +54,37 @@ h4 {
 .hide {
   display: none;
 }
-
-/*
-header nav {
-  display: block;
-}
-
 @media screen and (max-width: 768px) {
-  header nav {
-    display: none;
+  #logo {
+    margin: auto;
+    height: 8vh;
+    display: block;
+    cursor: pointer;
+  }
+  h3 {
+    font-size: 1.6vh;
+    cursor: pointer;
+  }
+  h4 {
+    font-size: 1.6vh;
+    color: #707070;
+    cursor: pointer;
+  }
+  .cursor{
+    height: 1.0vh;
+    line-height: 1.0vh;
+    margin-top: 0.4vh;
+  }
+  #menu-container {
+    width: 100%;
+    justify-content: space-evenly;
   }
 }
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
   header nav {
     position: fixed;
     left: 0;
     width: 20vw;
   }
-}
-*/
+} */
+
