@@ -5,47 +5,47 @@
   <div id="menu-container">
     <span id="menu">
       <div>
-      <div class="menu-item-container-h3" style="margin-left: 0px !important;">
-        <img class="cursor" [ngClass]="{'show' : aboutToggle, 'hide': !aboutToggle}" src="assets/right-tri.svg">
-        <!-- <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/about">about</h3> -->
-        <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/">about</h3>
+        <div class="menu-item-container-h3" style="margin-left: 0px !important;">
+          <img class="cursor" [ngClass]="{'show' : aboutToggle, 'hide': !aboutToggle}" src="assets/right-tri.svg">
+          <!-- <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/about">about</h3> -->
+          <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/">about</h3>
+        </div>
+        <!-- <div class="menu-item-container-h3">
+          <h3 class="menu-item category-item">process</h3>
+        </div> -->
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('katazome')" routerLink="/katazome">laser-enabled katazome</h4>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : etchingToggle, 'hide': !etchingToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('etching')"  routerLink="/etching">electro-etching</h4>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('dyeing')"  routerLink="/dyeing">natural dyeing</h4>
+        </div>
+        <!-- <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">sound pictorials</h4>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">machine-learning pictorials</h4>
+        </div> -->
+        <div class="menu-item-container-h3">
+          <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">
+          <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">studio</h3>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : printgalleryToggle, 'hide': !printgalleryToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('printgallery')"  routerLink="/printgallery">prints</h4>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : textilegalleryToggle, 'hide': !textilegalleryToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('textilegallery')"  routerLink="/textilegallery">textiles</h4>
+        </div>
       </div>
-      <!-- <div class="menu-item-container-h3">
-        <h3 class="menu-item category-item">process</h3>
-      </div> -->
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('katazome')" routerLink="/katazome">laser-enabled katazome</h4>
-      </div>
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : etchingToggle, 'hide': !etchingToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('etching')"  routerLink="/etching">electro-etching</h4>
-      </div>
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('dyeing')"  routerLink="/dyeing">natural dyeing</h4>
-      </div>
-      <!-- <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">sound pictorials</h4>
-      </div>
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">machine-learning pictorials</h4>
-      </div> -->
-      <div class="menu-item-container-h3">
-        <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">
-        <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">studio</h3>
-      </div>
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : printgalleryToggle, 'hide': !printgalleryToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('printgallery')"  routerLink="/printgallery">prints</h4>
-      </div>
-      <div class="menu-item-container-h4">
-        <img class="cursor" [ngClass]="{'show' : textilegalleryToggle, 'hide': !textilegalleryToggle}" src="assets/right-tri.svg">
-        <h4 class="menu-item" (click)="enableDisableRule('textilegallery')"  routerLink="/textilegallery">textiles</h4>
-      </div>
-    </div>
     </span>
   </div>
 </div>
