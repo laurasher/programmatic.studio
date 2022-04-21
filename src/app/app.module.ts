@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { printgalleryComponent } from './printgallery/printgallery.component';
 import { textilegalleryComponent } from './textilegallery/textilegallery.component';
 import { StudioComponent } from './studio/studio.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { StudioComponent } from './studio/studio.component';
       {path: 'printgallery', component: printgalleryComponent},
       {path: 'textilegallery', component: textilegalleryComponent},
     ]),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

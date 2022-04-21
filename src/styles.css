@@ -22,7 +22,8 @@ body {
   display: none;
 }
 .page-content {
-  background-color: #F6F8F9;
+  /* background-color: #F6F8F9; */
+  background-color: #F5F8F9;
   height: 100%;
   margin-bottom: 1%;
   margin-top: 1%;
@@ -41,3 +42,6 @@ body {
     line-height: 1px;
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
