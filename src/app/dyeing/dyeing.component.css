@@ -1,11 +1,11 @@
 #top-img-container {
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 img {
-  float: left;
-  display: inline;
-  width: 40%;
-  margin-left: 1%;
+  /* float: left;
+  display: inline; */
+  /* width: 40%; */
+  /* margin-left: 1%; */
 }
 @media screen and (max-width: 768px) {
   img {
