@@ -50,7 +50,7 @@ export class MenuComponent implements OnInit {
       this.printgalleryToggle = false;
       this.textilegalleryToggle = false;
     }
-    if (page == "dyeing"){
+    if (page == "plotter"){
       this.aboutToggle = false;
       this.katazomeToggle = false;
       this.etchingToggle = false;

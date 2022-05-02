@@ -1,20 +1,5 @@
-#top-img-container {
-  /* margin-left: 10%; */
+#top-img {
+  width: 100% !important;
 }
-img {
-  /* float: left;
-  display: inline; */
-  /* width: 40%; */
-  /* margin-left: 1%; */
-}
-@media screen and (max-width: 768px) {
-  img {
-    float: none;
-    display: block;
-    margin: auto;
-    margin-bottom: 2%;
-  }
-  #top-img-container {
-    margin: auto;
-  }
-}
+/* @media screen and (max-width: 768px) { */
+/* } */

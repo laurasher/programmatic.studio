@@ -81,7 +81,8 @@ body {
     line-height: 1px;
   }
   #top-img {
-    width: 80% !important;
+    /* width: 80% !important; */
+    width: 100% !important;
     margin: auto;
     float: none;
   }

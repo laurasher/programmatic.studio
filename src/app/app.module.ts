@@ -94,7 +94,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       {path: '', component: AboutComponent},
       {path: 'katazome', component: KatazomeComponent},
       {path: 'etching', component: EtchingComponent},
-      {path: 'dyeing', component: DyeingComponent},
+      {path: 'plotter', component: DyeingComponent},
       {path: 'studio', component: StudioComponent},
       {path: 'printgallery', component: printgalleryComponent},
       {path: 'textilegallery', component: textilegalleryComponent},
