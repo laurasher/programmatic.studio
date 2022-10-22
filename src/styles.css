@@ -103,6 +103,16 @@ ul {
   margin-top: 5%;
   width: 80% !important;
 }
+#left-container-sound {
+  height: auto;
+  float: left;
+  /* width: 68%; */
+  height: 13vw;
+  margin-top: 1vw;
+}
+.left-container-img-sound {
+  height: 100%;
+}
 @media screen and (max-width: 768px) {
   .page-content {
     font-size: 1.6vh;
