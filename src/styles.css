@@ -89,6 +89,9 @@ ul {
 .right-container-img {
   width: 48% !important;
 }
+.left-container-img {
+  margin-top: 5%;
+}
 @media screen and (max-width: 768px) {
   .page-content {
     font-size: 1.6vh;
@@ -100,7 +103,7 @@ ul {
   }
   #left-container {
     font-size: 1.6vh;
-    text-align: center;
+    text-align: justify;
     margin-left: 10%;
     width: 80%;
     display: inline;
