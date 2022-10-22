@@ -29,7 +29,7 @@ body {
   height: 100%;
   margin-bottom: 1%;
   margin-top: 1%;
-  padding: 2%;
+  padding: 3%;
   padding-left: 3%;
   padding-right: 3%;
   font-size: 1.1vw;
@@ -53,9 +53,9 @@ body {
 #left-container {
   height: auto;
   float: left;
-  width: 25%;
+  width: 28%;
   text-align: left;
-  font-size: 0.9vw;
+  font-size: 1.1vw;
 }
 #right-container {
   height: auto;
@@ -87,10 +87,12 @@ ul {
   float: none;
 }
 .right-container-img {
-  width: 48% !important;
+  width: 45% !important;
+  margin-left: 3%;
+  float: right;
 }
 .left-container-img {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 @media screen and (max-width: 768px) {
   .page-content {
@@ -112,6 +114,7 @@ ul {
     font-size: 1.6vh;
     text-align: center;
     width: 80%;
+    float: none;
     display: inline;
   }
   .right-container-img {
