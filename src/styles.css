@@ -133,6 +133,19 @@ ul {
     width: 110% !important;
     margin-left: -5%;
   }
+  #left-container-sound {
+    width: 110% !important;
+    height: auto;
+    margin-left: -5%;
+  }
+  #left-sound {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+  }
+  #right-sound {
+    display: none;
+  }
   #right-container {
     font-size: 1.6vh;
     text-align: center;
