@@ -22,7 +22,7 @@
 .laura-link {
   color: #707070 !important;
   text-align: left;
-  font-size: 1vw;
+  /* font-size: 1vw; */
   float: left;
 }
 @media screen and (max-width: 768px) {
