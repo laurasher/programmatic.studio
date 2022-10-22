@@ -57,11 +57,6 @@ body {
   text-align: left;
   font-size: 1.1vw;
 }
-#right-container {
-  height: auto;
-  float: right;
-  width: 68%;
-}
 ul {
   margin-top: 0px;
 }
@@ -86,13 +81,20 @@ ul {
   margin: auto;
   float: none;
 }
+#right-container {
+  height: auto;
+  float: right;
+  width: 68%;
+  height: 33vw;
+  margin-top: 1vw;
+}
 .right-container-img {
   width: 45% !important;
   margin-left: 3%;
   float: right;
 }
 .left-container-img {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 @media screen and (max-width: 768px) {
   .page-content {
@@ -113,6 +115,7 @@ ul {
   #right-container {
     font-size: 1.6vh;
     text-align: center;
+    height: auto;
     width: 80%;
     float: none;
     display: inline;
