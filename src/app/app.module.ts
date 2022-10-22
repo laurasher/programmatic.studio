@@ -44,6 +44,8 @@ import { printgalleryComponent } from './printgallery/printgallery.component';
 import { textilegalleryComponent } from './textilegallery/textilegallery.component';
 import { StudioComponent } from './studio/studio.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SoundComponent } from './sound/sound.component';
+import { MlComponent } from './ml/ml.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +58,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     printgalleryComponent,
     textilegalleryComponent,
     StudioComponent,
+    SoundComponent,
+    MlComponent,
   ],
   imports: [
     // MatCheckboxModule,
@@ -96,6 +100,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       {path: 'etching', component: EtchingComponent},
       {path: 'plotter', component: DyeingComponent},
       {path: 'studio', component: StudioComponent},
+      {path: 'sound', component: SoundComponent},
+      {path: 'ml', component: MlComponent},
       {path: 'printgallery', component: printgalleryComponent},
       {path: 'textilegallery', component: textilegalleryComponent},
     ]),

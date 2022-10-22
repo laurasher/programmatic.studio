@@ -17,34 +17,33 @@
           <!-- <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/about">about</h3> -->
           <h3 class="menu-item" (click)="enableDisableRule('about')"  routerLink="/">about</h3>
         </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : plotterToggle, 'hide': !plotterToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('plotter')"  routerLink="/plotter">plotter printing</h4>
+        </div>
         <!-- <div class="menu-item-container-h3">
           <h3 class="menu-item category-item">process</h3>
         </div> -->
-        <div class="menu-item-container-h4">
+        <!-- <div class="menu-item-container-h4">
             <img class="cursor" [ngClass]="{'show' : etchingToggle, 'hide': !etchingToggle}" src="assets/right-tri.svg">
             <h4 class="menu-item" (click)="enableDisableRule('etching')"  routerLink="/etching">electro-etching</h4>
-        </div>
+        </div> -->
         <div class="menu-item-container-h4">
           <img class="cursor" [ngClass]="{'show' : katazomeToggle, 'hide': !katazomeToggle}" src="assets/right-tri.svg">
           <h4 class="menu-item" (click)="enableDisableRule('katazome')" routerLink="/katazome">laser-enabled katazome</h4>
         </div>
-        <div class="conditional-break">
+        <!-- <div class="conditional-break">
           <br>
-        </div>
-        <div class="menu-item-container-h4">
-          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-          <!-- <h4 class="menu-item" (click)="enableDisableRule('dyeing')"  routerLink="/dyeing">natural dyeing</h4> -->
-          <h4 class="menu-item" (click)="enableDisableRule('plotter')"  routerLink="/plotter">plotter printing</h4>
-        </div>
-        <!-- <div class="menu-item-container-h4">
-          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-          <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">sound pictorials</h4>
-        </div>
-        <div class="menu-item-container-h4">
-          <img class="cursor" [ngClass]="{'show' : dyeingToggle, 'hide': !dyeingToggle}" src="assets/right-tri.svg">
-          <h4 class="menu-item" (click)="enableDisableRule('')"  routerLink="">machine-learning pictorials</h4>
         </div> -->
-        <div class="menu-item-container-h3">
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : soundToggle, 'hide': !soundToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('sound')"  routerLink="/sound">sound pictorials</h4>
+        </div>
+        <div class="menu-item-container-h4">
+          <img class="cursor" [ngClass]="{'show' : mlToggle, 'hide': !mlToggle}" src="assets/right-tri.svg">
+          <h4 class="menu-item" (click)="enableDisableRule('ml')"  routerLink="/ml">machine-learning pictorials</h4>
+        </div>
+        <!-- <div class="menu-item-container-h3">
           <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">
           <h3 class="menu-item" (click)="enableDisableRule('studio')"  routerLink="/studio">studio</h3>
         </div>
@@ -55,7 +54,7 @@
         <div class="menu-item-container-h4">
           <img class="cursor" [ngClass]="{'show' : textilegalleryToggle, 'hide': !textilegalleryToggle}" src="assets/right-tri.svg">
           <h4 class="menu-item" (click)="enableDisableRule('textilegallery')"  routerLink="/textilegallery">textiles</h4>
-        </div>
+        </div> -->
       </div>
     </span>
   </div>
