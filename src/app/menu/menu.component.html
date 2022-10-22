@@ -36,6 +36,13 @@
         <div class="conditional-break">
           <br>
         </div>
+        <div class="menu-item-container-h4">
+            <img class="cursor" [ngClass]="{'show' : soundToggle, 'hide': !soundToggle}" src="assets/right-tri.svg">
+            <h4 class="menu-item"
+            [ngClass]="{'selected-menu-item' : soundToggle, 'regular-menu-item': !soundToggle}"
+            (click)="enableDisableRule('sound')"
+            routerLink="/sound">sound pictorials</h4>
+          </div>
         <!-- <div class="menu-item-container-h3">
           <h3 class="menu-item category-item">process</h3>
         </div> -->
@@ -49,13 +56,6 @@
           [ngClass]="{'selected-menu-item' : katazomeToggle, 'regular-menu-item': !katazomeToggle}"
           (click)="enableDisableRule('katazome')"
           routerLink="/katazome">laser-enabled katazome</h4>
-        </div>
-        <div class="menu-item-container-h4">
-          <img class="cursor" [ngClass]="{'show' : soundToggle, 'hide': !soundToggle}" src="assets/right-tri.svg">
-          <h4 class="menu-item"
-          [ngClass]="{'selected-menu-item' : soundToggle, 'regular-menu-item': !soundToggle}"
-          (click)="enableDisableRule('sound')"
-          routerLink="/sound">sound pictorials</h4>
         </div>
         <!-- <div class="menu-item-container-h3">
           <img class="cursor" [ngClass]="{'show' : studioToggle, 'hide': !studioToggle}" src="assets/right-tri.svg">

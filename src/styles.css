@@ -29,9 +29,9 @@ body {
   height: 100%;
   margin-bottom: 1%;
   margin-top: 1%;
-  padding: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 5%;
+  /* padding-left:  3%;
+  padding-right: 3%; */
   font-size: 1.1vw;
   text-align: center;
 }
