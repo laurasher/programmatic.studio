@@ -46,6 +46,9 @@ body {
   display: inline-block;
   margin-bottom: 3%;
 }
+.left-text-sound {
+  font-size: 1vw;
+}
 #bottom-container {
   /* border-top: #707070;
   border-top-width: 0.5px;
@@ -129,6 +132,9 @@ ul {
     margin-left: 10%;
     width: 80%;
     display: inline;
+  }
+  .left-text-sound {
+    font-size: 1.6vh;
   }
   .left-container-img {
     width: 110% !important;
